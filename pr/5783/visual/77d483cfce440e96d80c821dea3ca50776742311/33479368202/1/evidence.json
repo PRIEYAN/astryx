@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "repo": "facebook/astryx",
+  "pr": 5783,
+  "headSha": "77d483cfce440e96d80c821dea3ca50776742311",
+  "testedSha": "77d483cfce440e96d80c821dea3ca50776742311",
+  "baseSha": "03eb63196eeb50549fb08aff3b7c9d810ae78709",
+  "run": {
+    "id": 33479368202,
+    "attempt": 1
+  },
+  "capture": null,
+  "deltas": [],
+  "verdict": {
+    "version": 1,
+    "status": "skipped",
+    "generatedAt": "2026-09-01T07:16:50.835Z",
+    "reason": "Broad stable scope is deferred to the daily release gate. It covers 3470 trusted baseline shots instead of recapturing them for this PR.",
+    "context": {
+      "sha": "77d483cfce440e96d80c821dea3ca50776742311",
+      "headSha": "77d483cfce440e96d80c821dea3ca50776742311",
+      "baseSha": "03eb63196eeb50549fb08aff3b7c9d810ae78709",
+      "runId": "33479368202",
+      "runAttempt": "1",
+      "trustedScope": {
+        "hasStableVisual": true,
+        "broadStableVisual": true,
+        "stableComponents": [
+          "AppShell",
+          "Chat",
+          "Resizable",
+          "TabList",
+          "Table",
+          "Text"
+        ],
+        "stableCoreFiles": [
+          "packages/core/src/AppShell/AppShell.tsx",
+          "packages/core/src/Chat/useChatNewMessages.ts",
+          "packages/core/src/Resizable/ResizeHandle.tsx",
+          "packages/core/src/Resizable/useResizable.ts",
+          "packages/core/src/TabList/TabList.tsx",
+          "packages/core/src/Table/plugins/columnResize/useTableColumnResize.tsx",
+          "packages/core/src/Text/useTruncation.ts",
+          "packages/core/src/hooks/useOverflow.ts",
+          "packages/core/src/hooks/useScrollOverflow.ts",
+          "packages/core/src/utils/sharedResizeObserver.ts"
+        ],
+        "stableThemes": [],
+        "canaryPackages": []
+      }
+    },
+    "counts": {
+      "total": 3470,
+      "unchanged": 0,
+      "changed": 0,
+      "added": 0,
+      "removed": 0,
+      "failed": 0
+    },
+    "components": [
+      "AppShell",
+      "Chat",
+      "Resizable",
+      "TabList",
+      "Table",
+      "Text"
+    ],
+    "changes": [],
+    "added": [],
+    "removed": [],
+    "failures": []
+  }
+}
