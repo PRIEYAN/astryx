@@ -444,6 +444,47 @@ describe('NumberInput', () => {
       await user.tab();
       expect(handleChange).toHaveBeenCalledWith(3.5);
     });
+
+    it('commits a typed fractional value under an integer step', async () => {
+      const user = userEvent.setup();
+      const handleChange = vi.fn();
+      render(
+        <NumberInput
+          label="Line height"
+          value={28}
+          onChange={handleChange}
+          min={1}
+          max={400}
+          step={1}
+        />,
+      );
+
+      const input = screen.getByRole('spinbutton');
+      await user.click(input);
+      await user.clear(input);
+      await user.type(input, '1.25');
+      await user.tab();
+
+      expect(handleChange).toHaveBeenCalledTimes(1);
+      expect(handleChange).toHaveBeenCalledWith(1.25);
+    });
+
+    it('still aligns a stepped value to an integer step', () => {
+      const handleChange = vi.fn();
+      render(
+        <NumberInput
+          label="Line height"
+          value={1.25}
+          onChange={handleChange}
+          min={1}
+          max={400}
+          step={1}
+        />,
+      );
+
+      fireEvent.keyDown(screen.getByRole('spinbutton'), {key: 'ArrowUp'});
+      expect(handleChange).toHaveBeenCalledWith(2);
+    });
   });
 
   describe('invalid draft commit policy', () => {
