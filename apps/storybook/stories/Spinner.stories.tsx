@@ -224,6 +224,36 @@ export const ThemedHairlineStroke: Story = {
   ),
 };
 
+// The sweep is the one ring property that is neither a size nor a shade, so it
+// is themed from the base target and every size moves with it.
+const themedSweep = defineTheme({
+  name: 'spinner-themed-sweep',
+  components: {
+    spinner: {base: {'--spinner-arc-fraction': '0.75'}},
+  },
+});
+
+export const ThemedArcSweep: Story = {
+  name: 'Themed Arc Sweep',
+  render: () => (
+    <VStack gap={2}>
+      <Text type="supporting" color="secondary">
+        Themed — a 270deg arc instead of the default 135deg, holding its
+        proportion across the sizes (the `Sizes` story above is the unthemed
+        reference, for the reason noted on `ThemedGeometry`)
+      </Text>
+      <Theme theme={themedSweep} mode="light">
+        <HStack gap={4} vAlign="center">
+          <Spinner size="sm" />
+          <Spinner size="md" />
+          <Spinner size="lg" />
+          <Spinner size="xl" />
+        </HStack>
+      </Theme>
+    </VStack>
+  ),
+};
+
 /**
  * A flex host narrower than the spinner in it. The box keeps the ring's size
  * and overflows the host visibly; before the fix the host compressed the box

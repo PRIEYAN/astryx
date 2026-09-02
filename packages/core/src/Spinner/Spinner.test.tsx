@@ -220,6 +220,14 @@ describe('Spinner', () => {
         '.astryx-spinner {\n    --spinner-color: var(--color-brand);',
       );
     });
+
+    it('lets the base target set the arc sweep', () => {
+      // The sweep varies with neither size nor shade, so `base` is the key it
+      // belongs on.
+      expect(
+        cssFor({spinner: {base: {'--spinner-arc-fraction': '0.75'}}}),
+      ).toContain('.astryx-spinner {\n    --spinner-arc-fraction: 0.75;');
+    });
   });
 });
 
@@ -269,6 +277,38 @@ describe('Spinner ring', () => {
     },
   );
 
+  it('composes the arc dash from the sweep var', () => {
+    // The attribute below is the default sweep and cannot read a custom
+    // property, so the rule is the only surface a themed sweep arrives
+    // through. Scan the injected CSS for it rather than a computed style,
+    // which jsdom resolves for neither var() nor calc().
+    function injectedCss(): string {
+      let out = '';
+      for (const sheet of Array.from(document.styleSheets)) {
+        try {
+          for (const rule of Array.from(sheet.cssRules)) {
+            out += rule.cssText + '\n';
+          }
+        } catch {
+          // ignore cross-origin sheets
+        }
+      }
+      out += Array.from(document.querySelectorAll('style'))
+        .map(s => s.textContent || '')
+        .join('\n');
+      return out;
+    }
+
+    render(<Spinner data-testid="spinner" />);
+    const css = injectedCss();
+    const dashed = [...circles().arc.classList].some(cls =>
+      new RegExp(
+        `\\.${cls}\\b[^{]*\\{[^}]*stroke-dasharray[^}]*var\\(--spinner-arc-fraction`,
+      ).test(css),
+    );
+    expect(dashed).toBe(true);
+  });
+
   it('starts the arc at twelve o’clock', () => {
     render(<Spinner data-testid="spinner" />);
     const frame = SIZES.md.diameter + SIZES.md.border * 2;
@@ -284,6 +324,11 @@ describe('Spinner ring', () => {
   // lengths out of the resolved diameter — and deliberately not `pathLength`'s,
   // which rescales against the path length the UA measures on its own
   // approximation of the circle and shortens the default arc by 0.64%.
+  //
+  // A themed sweep is the rule's job for the same reason, so this attribute
+  // stays the default 135deg whatever `--spinner-arc-fraction` says. The two
+  // agree until a theme moves the sweep, and from then on the attribute is
+  // what the frame before the stylesheet draws.
   it.each(Object.entries(SIZES))(
     'leaves the %s arc its own absolute dash, with no pathLength',
     (size, {diameter}) => {

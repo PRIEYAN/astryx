@@ -304,15 +304,18 @@ const VARS_WITHOUT_DERIVED_MAPPING = new Set([
   // It is one component of one shadow in the list, so no standard property
   // maps onto it either — a theme sets it beside the fill it has to contrast.
   '--selectable-card-ring-color',
-  // The spinner's ring is drawn as an SVG circle, so none of its four vars is
+  // The spinner's ring is drawn as an SVG circle, so none of its five vars is
   // a CSS property of the element carrying the theme target: `width` and
-  // `borderWidth` would name a box the ring is not, and a `color` mapping
-  // would take the label's text color with it. They are public vars a theme
-  // sets directly under a size- or shade-variant key.
+  // `borderWidth` would name a box the ring is not, a `color` mapping would
+  // take the label's text color with it, and the arc sweep reaches the ring as
+  // one half of a `stroke-dasharray` composed on a circle the target does not
+  // own. They are public vars a theme sets directly, under a size- or
+  // shade-variant key or on the base target.
   '--spinner-diameter',
   '--spinner-stroke-width',
   '--spinner-color',
   '--spinner-track-color',
+  '--spinner-arc-fraction',
 ]);
 
 // ---------------------------------------------------------------------------

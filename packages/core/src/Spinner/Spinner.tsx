@@ -29,20 +29,21 @@ import {themeProps} from '../utils/themeProps';
 // =============================================================================
 
 /**
- * Fraction of the ring the moving arc covers. The canvas ring this replaces
- * swept 135deg, not the 270deg its constant's comment claimed.
+ * Fraction of the ring the moving arc covers, and the default the public
+ * `--spinner-arc-fraction` resolves to. The canvas ring this replaces swept
+ * 135deg, not the 270deg its constant's comment claimed.
  */
 const ARC_FRACTION = 0.375;
 
 /**
- * The dash pattern, per unit of diameter: one arc, then the gap that closes
- * the circle. The circumference is `pi x diameter`, so multiplying the
- * resolved diameter by these two constants gives exactly the lengths the
- * default render has always used, and scales them with a themed diameter.
+ * The circumference, per unit of diameter. The dash pattern is composed from
+ * it: `pi x diameter x fraction` of arc, then the gap that closes the circle.
+ * Multiplying the resolved diameter gives exactly the lengths the default
+ * render has always used and scales them with a themed diameter, and reading
+ * the fraction off the cascade rather than compiling it in is what lets a
+ * theme change how much of the circle the arc covers.
  */
 const PI = 3.141592653589793;
-const ARC_DASH = PI * ARC_FRACTION;
-const ARC_GAP = PI * (1 - ARC_FRACTION);
 
 const SIZES = {
   sm: {diameter: 10, border: 2},
@@ -303,23 +304,26 @@ const styles = stylex.create({
   //
   // The dash pattern is composed from the resolved diameter the same way, so a
   // themed ring keeps the same fraction of arc rather than the same absolute
-  // dash. `pathLength` would be the shorter route to that, but it rescales the
-  // pattern against the path length the UA measures on its own approximation
-  // of the circle — 87.398 against the 87.965 of pi x 28 — which shortens the
-  // default arc by 0.64% and moves the cap by half a pixel. Composing the
-  // lengths keeps the default byte-identical to what it drew before.
+  // dash, and the fraction is read off the cascade too, so a theme can set the
+  // sweep. `pathLength` would be the shorter route to the scaling, but it
+  // rescales the pattern against the path length the UA measures on its own
+  // approximation of the circle — 87.398 against the 87.965 of pi x 28 — which
+  // shortens the default arc by 0.64% and moves the cap by half a pixel.
+  // Composing the lengths keeps the default byte-identical to what it drew
+  // before.
   arc: {
     stroke: 'var(--spinner-color)',
-    strokeDasharray: `calc(var(${RESOLVED_DIAMETER}) * ${ARC_DASH}) calc(var(${RESOLVED_DIAMETER}) * ${ARC_GAP})`,
+    strokeDasharray: `calc(var(${RESOLVED_DIAMETER}) * ${PI} * var(--spinner-arc-fraction)) calc(var(${RESOLVED_DIAMETER}) * ${PI} * (1 - var(--spinner-arc-fraction)))`,
   },
   track: {stroke: 'var(--spinner-track-color)'},
 });
 
-// What each named `size` and `shade` resolve to. Both groups DECLARE the four
-// public vars, on the element that carries the `spinner` theme target, and
-// everything downstream reads them — so a theme's `@layer astryx-theme` rule
-// against `.astryx-spinner.xl` overrides the default the same way it does for
-// `--tree-list-indent` or `--button-focus-offset`, e.g.
+// What each named `size` and `shade` resolve to. Both groups DECLARE four of
+// the five public vars, on the element that carries the `spinner` theme
+// target, and everything downstream reads them — so a theme's
+// `@layer astryx-theme` rule against `.astryx-spinner.xl` overrides the
+// default the same way it does for `--tree-list-indent` or
+// `--button-focus-offset`, e.g.
 // spinner: { 'size:xl': { '--spinner-diameter': '40px' } }.
 //
 // Declaring is only safe because #5410 moved the compiled StyleX CSS inside
@@ -369,6 +373,16 @@ const shadeStyles = stylex.create({
     '--spinner-color': 'currentColor',
     '--spinner-track-color': 'currentColor',
   },
+});
+
+// The sweep varies with neither size nor shade, so it is declared once rather
+// than repeated across a variant group. It still has to be declared on the
+// theme target and nowhere else, for the same two reasons the groups above
+// are: `theme-var-reachability.js` finds a var by its declaring element and
+// requires that element to carry the target class, and a declaration on the
+// span would shadow a theme's override of the wrapper.
+const arcStyles = stylex.create({
+  fraction: {'--spinner-arc-fraction': `${ARC_FRACTION}`},
 });
 
 // The track's alpha is a property, not a color: it composites over whatever
@@ -501,6 +515,7 @@ export function Spinner({
           // default it is trying to replace.
           !hasLabel && sizeStyles[size],
           !hasLabel && shadeStyles[shade],
+          !hasLabel && arcStyles.fraction,
           !hasLabel && xstyle,
         ),
         hasLabel ? undefined : className,
@@ -542,7 +557,9 @@ export function Spinner({
           strokeWidth={border}
           // The size's own dash, for the render with no stylesheet. The rule
           // above composes the same lengths from the resolved diameter, so a
-          // themed ring keeps this fraction of arc rather than this length.
+          // themed ring keeps this fraction of arc rather than this length —
+          // and it composes the fraction from the cascade too, so a themed
+          // sweep replaces this one from the frame the stylesheet applies in.
           strokeDasharray={`${arcLength} ${circumference - arcLength}`}
           transform={`rotate(-90 ${center} ${center})`}
           {...stylex.props(styles.circle, styles.arc)}
@@ -566,6 +583,7 @@ export function Spinner({
           styles.wrapper,
           sizeStyles[size],
           shadeStyles[shade],
+          arcStyles.fraction,
           xstyle,
         ),
         className,
