@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "repository": "facebook/astryx",
+  "pullRequest": {
+    "number": 5776,
+    "headSha": "5eb9acee6a713c879a7e37a6c569b2d42291590a",
+    "headRef": "fix/issue-5775",
+    "headRepository": "ngolin/astryx",
+    "headRepositoryId": "1306125062"
+  },
+  "sourceRun": {
+    "id": 33473928982,
+    "attempt": 1,
+    "conclusion": "success"
+  },
+  "targets": {
+    "storybook": {
+      "available": true,
+      "path": "pr/5776/",
+      "indexSha256": "b1897f3f4703faf8ebc0206d5d9223d232a0528f87b91aed5b2877c19b7952cd"
+    },
+    "sandbox": {
+      "available": true,
+      "path": "pr/5776/sandbox/",
+      "indexSha256": "926b13e074d984992777d9bd701e31ed646d0d4b6c0a57f709ebfc21bcfac312"
+    }
+  }
+}
