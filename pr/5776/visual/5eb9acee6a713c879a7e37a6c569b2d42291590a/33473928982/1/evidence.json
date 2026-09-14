@@ -1,0 +1,3935 @@
+{
+  "version": 1,
+  "repo": "facebook/astryx",
+  "pr": 5776,
+  "headSha": "5eb9acee6a713c879a7e37a6c569b2d42291590a",
+  "testedSha": "5eb9acee6a713c879a7e37a6c569b2d42291590a",
+  "baseSha": "fb400d4b58e37b7f778dd71b238e170aeddda7ee",
+  "run": {
+    "id": 33473928982,
+    "attempt": 1
+  },
+  "capture": {
+    "platform": "linux-arm64",
+    "browser": "chromium-149.0.7827.0",
+    "viewport": {
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "deltas": [
+    {
+      "key": "core-appshell--playground__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "64979d389e44c0aebb55cf33d10b2fbfe0b1e1c0e55d2fc1dc0a24576bf054fd",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--playground",
+        "title": "Core/AppShell",
+        "name": "Playground",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--playground__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "3e662e2e82d5452bdef09cde148bb615f35764aeedf5634d58321a9605395aa6",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--playground",
+        "title": "Core/AppShell",
+        "name": "Playground",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--playground__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "407874e8c6cd96c7ce418c256fe26e9239fff348f0aa6d00ff9ffc5667d4e620",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--playground",
+        "title": "Core/AppShell",
+        "name": "Playground",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--playground__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "407874e8c6cd96c7ce418c256fe26e9239fff348f0aa6d00ff9ffc5667d4e620",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--playground",
+        "title": "Core/AppShell",
+        "name": "Playground",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--playground__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "12a2fbedb45721255d19115b4e55887c711cf75d31598f8f86a26d37e1ff656e",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--playground",
+        "title": "Core/AppShell",
+        "name": "Playground",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--playground__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d88c12b8a8bc80d63b4302043b6d9da3dd8ce22be744408019aa7758507e80b7",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--playground",
+        "title": "Core/AppShell",
+        "name": "Playground",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--playground__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "2d6b275c4231e7e6ee14bb5081f22f900a3b320bc964ce40757628b37067ac11",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--playground",
+        "title": "Core/AppShell",
+        "name": "Playground",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--playground__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "dad3d4ffd4920cd6688d85dc6fc129a408b47dd6921551c30d6af00a8a2f2466",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--playground",
+        "title": "Core/AppShell",
+        "name": "Playground",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--playground__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d2a3841ea88d5bf2a617690eb1fca35961b12830516d63e57a754791977047a4",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--playground",
+        "title": "Core/AppShell",
+        "name": "Playground",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--playground__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "65aeea1265a8b44fd7016f2c4cb20e2b7acb36aa215b0b2da926c036e2296193",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--playground",
+        "title": "Core/AppShell",
+        "name": "Playground",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--playground__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "22aa6763abff83a64fcb1fedf9db566aa5d6288bdf8df58f4b8c9c57a64d8b91",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--playground",
+        "title": "Core/AppShell",
+        "name": "Playground",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--playground__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "2deb5f91f991301beab37734d46ab8ce8c22cdfb3a9b74ba6806405aef2203c2",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--playground",
+        "title": "Core/AppShell",
+        "name": "Playground",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "205f3f971dcf3b102255dc11958890d90e5d1e5bdc02ded6f990bb2822ffc198",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "785d9676f7b2adca951b29a5b340660918a49297ff3fb1368836a4fc66a19e41",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "64979d389e44c0aebb55cf33d10b2fbfe0b1e1c0e55d2fc1dc0a24576bf054fd",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "3e662e2e82d5452bdef09cde148bb615f35764aeedf5634d58321a9605395aa6",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "407874e8c6cd96c7ce418c256fe26e9239fff348f0aa6d00ff9ffc5667d4e620",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "407874e8c6cd96c7ce418c256fe26e9239fff348f0aa6d00ff9ffc5667d4e620",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "12a2fbedb45721255d19115b4e55887c711cf75d31598f8f86a26d37e1ff656e",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d88c12b8a8bc80d63b4302043b6d9da3dd8ce22be744408019aa7758507e80b7",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "2d6b275c4231e7e6ee14bb5081f22f900a3b320bc964ce40757628b37067ac11",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "dad3d4ffd4920cd6688d85dc6fc129a408b47dd6921551c30d6af00a8a2f2466",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d2a3841ea88d5bf2a617690eb1fca35961b12830516d63e57a754791977047a4",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "65aeea1265a8b44fd7016f2c4cb20e2b7acb36aa215b0b2da926c036e2296193",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "22aa6763abff83a64fcb1fedf9db566aa5d6288bdf8df58f4b8c9c57a64d8b91",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-with-side-nav__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "2deb5f91f991301beab37734d46ab8ce8c22cdfb3a9b74ba6806405aef2203c2",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-with-side-nav",
+        "title": "Core/AppShell",
+        "name": "Top Nav With Side Nav",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "47614f33fc06975de292fc9db00139d4c3cdb7630f912537f4797f205c7b08da",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "9a795db42065882a295bcb59df296742944a05a5810cb97f8b04393cf6ac75b2",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "980250a273b98eef0e4e1392918e1e4317579ab3bf9abfb07e7e4f97fac61002",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d248d669f2ce8ac51ac042993cd475c21385e3e3b1c6e643b02291e39067181f",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "b52210e1f34cc32220d876472865f4e923a92138cf9131356b1344431ff567b1",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "b52210e1f34cc32220d876472865f4e923a92138cf9131356b1344431ff567b1",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a60b6745fbb53634f9387be3af53ec75787f5b5ac68290953429b993d18ed28b",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "28210e0e40f4f4c5961d11e4b5c75ab7855fe8c1e0398425145b985e52072d96",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "9318572ac44381858c5b3d80d5a1d70f3ec7919b788538d68bd140d062768c65",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "e3faeca153fba0fbce210c2c15e478ae54aeafc81dbd6a194592e84b76079cd0",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "7331274aa96c62a081dbc7dd56e3f30914c855ea997df87facd023e347d934d4",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "3e5812b4037bfde8f6f2e1cc328f5358ba36a6a39add99d5ad2dffd6961712bd",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "666725c92eb6bef8e52d03dab6cd450edba9d9fac7d86adf24dcadf26af9deb8",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--side-nav-only__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "5a6b5fafed288be5498e50f6d974524b4b5116fa658db756eec2b78dd5d48c61",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--side-nav-only",
+        "title": "Core/AppShell",
+        "name": "Side Nav Only",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a37bf720a6312e8ed2a036b6ae5a81554f20082f4a8f21899003a81ad7d75c0a",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "cccd41308a8f6af720039e43f7580358c132b5a2721a3d4d2f87da3793136bb3",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "472383c1c54af7d98920366dc189a06cb406ddf6a22cfceedbd3e7d6032674f3",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "665607721bf502dd7685c1a723044e0f9b169fcdacb3486f954048439c8b1fb8",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "34199c3193d956039286f855bb425df7930335878e6b00754976e35f9bcb9714",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "34199c3193d956039286f855bb425df7930335878e6b00754976e35f9bcb9714",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "35f0e1efd3c2d9eec14615fff419bb32e7aef64ba2e62957344f53e10c456e18",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "647ff58bb8b9b0090cbe0d34a273bdeb8f370c8591b6dba576a97d00c261ae8c",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "fa2cbb550fa27f87c85b2550fafe544470bbf58ee114826a91591ced849fee53",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a08d793e3e3146633b0e5de6ab6a3e2c586849fb1f45aa8f6486b5d26d022bde",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "c4700a40ab297aa7032814388c01f843fb413691f1a5ee7f9ed04f0275c70174",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "aa28ccfe7bd834c52c2d05ddb19a9aa210b665c782c93bfc56c28fe4fad565c4",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "3203ac7065c529573b82ed52024d35d4c2bf5360a9e532a3ad66a313d0399476",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--top-nav-only__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "368382d7b1ac1a13bccae0cd91b7479860563b9efccd104ec711d4e9022a07a5",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--top-nav-only",
+        "title": "Core/AppShell",
+        "name": "Top Nav Only",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "5799734cbec960b457233efc84a3b7b7c4062ddeaa3336074049d5855d1861bb",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d0e6a2e52b42fe3e7a3104bfd9291e544394191839a540091bc73ee91269e1d8",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "50fd205759ffaf03a62fc1d24edaa2970a62207a4aa45b7c2cc04673d71f3866",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "9de2ae98b239f0d5ef703834dbca70cb4ae21f66404db2ba7e0c65cb450d881a",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "dcc3c32f824f960681c3caa875898b6c319b580b73219bf0d32fd0198df978de",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "dcc3c32f824f960681c3caa875898b6c319b580b73219bf0d32fd0198df978de",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "db7c2efff8adebf192d8972ab09c55e01e3314ad16b8e0cad1d81a524d93c582",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "4be9c97cffeb5afe364535963c0434f4dfaf98bad6e6d92c1f8b8e38f38464ff",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "0ea13d09f305787e0e2b97964c9f8a34eb8b4c4953aaa8a48b31de29f226018c",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "140bff7ea686cb127f3c21b61fc797158142142ae7a16755cc370b645bd2ddc5",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "786b846676c803574906c27d85fe25296e031598dc4291246e49dc3409c48496",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "28dd7a1aaef60ac40e6aa45f4e55b2e2ecd814e97c933174e1b0d07000d756cc",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "413115e68de0b55e8cc8de927adacc62fa1aca24f0f573d3674a159088e03ae0",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--full-featured__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d50ea368bffbcf4629024ef26bc9b7fd1a6c1b13931154e75d98f19a601b23d3",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--full-featured",
+        "title": "Core/AppShell",
+        "name": "Full Featured",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "8c4b5c9ccf4528e96c6af4501cde4d11609ace29cd646581aa9fcfdc2bf1c8f5",
+        "width": 1024,
+        "height": 1657,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "0c358361a4f6e3a584e991c015e8d43def71a430a85466055896f250292e3015",
+        "width": 1024,
+        "height": 1657,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d761ca34effcc5d774581f7be8e10e0471a295ee15a593a44fffb816d6a55a7a",
+        "width": 1024,
+        "height": 1668,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a45990734ba0fa7abf59955816ae06fe54d7cc1e683ee6c1a1f2b08aed13cb0d",
+        "width": 1024,
+        "height": 1668,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "5e0dd8f56cda473a2374d9f9169063afbc8e784991727a0d216d8b2bff5bcf40",
+        "width": 1024,
+        "height": 1904,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "5e0dd8f56cda473a2374d9f9169063afbc8e784991727a0d216d8b2bff5bcf40",
+        "width": 1024,
+        "height": 1904,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "55732777f58ebf02dd6259cb44b8489e2cd4fba669216fcd2847e7530b9a5b41",
+        "width": 1024,
+        "height": 1660,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a0390637a431cf7626f8be3f52241b6ac0bad8b442ef86082fb1ba0d6e62c632",
+        "width": 1024,
+        "height": 1660,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "7812d35b96cc51be509e94eb0136fe5b1c9691f4429891187a745899de0a37ab",
+        "width": 1024,
+        "height": 1948,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "391a9dbd19657037a348bcd7fc7216b8a66dc00da2e54737dbc8da35df7979c7",
+        "width": 1024,
+        "height": 1948,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "39a3461859f03dcd2772691bde1d3c708be8770f39e6977c3e86288de1940850",
+        "width": 1024,
+        "height": 1948,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "2971edd295656ad91ea026bd18d362415fd9173f1b94c819b322e7ed9576f7db",
+        "width": 1024,
+        "height": 1948,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "829c4494f93079833fe8455ffdba224ef64da61fe49b2638517300f482097e7f",
+        "width": 1024,
+        "height": 1657,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--auto-height__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "1b071f9e00b77556b11f773e12d8025966e4d132184fdb73ec095d0e1161bef2",
+        "width": 1024,
+        "height": 1657,
+        "storyId": "core-appshell--auto-height",
+        "title": "Core/AppShell",
+        "name": "Auto Height",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "fb4b0e00ad0f7bbb0e40b6a344ed637e2b217dc96a70f7046b34f7d9b2713b23",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "9baa3252e1ca9c4436ce621b5de047723bd6f80f92b2aee201c6c5dc53072e1e",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "0bb7097caff277c9e86def6b54a33095a7bbbff499769397475681703daaf778",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "0e46eb5e979c1af56043ad7b0d1ac9a36837ca882b04947d03a73040817932a8",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "344accf91d19faf05db01253412a035575b6fb2966631bbf4dd71d0e23a9aef9",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "344accf91d19faf05db01253412a035575b6fb2966631bbf4dd71d0e23a9aef9",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "54b178d847a4cfcaed797ab3357d37d2ec21944e8f73cee29026e13e1fd791c8",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "beb75d74c547ce1c3562a259709b941d0e6c73c56a65f29f71157397c1b76e8c",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "6eebb7e0a98903e54f1c7c4b27b9aab8b7ee8d630bf68680e7c6be28d9619e05",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "9f60f4c112f2314432a93333f8826a82f36281a5a9f29b84822e77e50c7883a4",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a971620e3a16bfd61dffb2a69af7469c8f94f13d368b9083f1f7667c8b704d10",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "8a76c287d239c3a2493ef33de7ef50e1be8f7d9ebceeaa5747622c5d7b864a68",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "259898415cabef0414f998c9cd645ebe9315431fc58405be6b1ece7bcff745a5",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--controlled-collapse__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "1d8d46630de388024f19edd7dc646e198065eb792d083d20e12ba2d13937299e",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--controlled-collapse",
+        "title": "Core/AppShell",
+        "name": "Controlled Collapse",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "860387d6c89a3e3d181333501433837dd33addc330dc4ef09b968ff1199b07a1",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "7e0736c48d9b5d2352f8ce2f061c3631b26cac95cbd93334cb4cb0d2a4faea27",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "4a1b69a3c5d7fe0dbf10f161c4399dd765aa45f6f7c38970463d9820bd2e1da9",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "c99b40ed93017400167bead77acb2f008fc0ab2eeefd0c4622974bf08c15c682",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "dc43aab1f9876d069ef1c4ddb546612f6393f7c4e52daaababbcf86d1a06677f",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "dc43aab1f9876d069ef1c4ddb546612f6393f7c4e52daaababbcf86d1a06677f",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "774efcf70d34975a0d96dd70cba39cf01b046c97298be317a1777d9c94659263",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "ac934e5f8473762386fe044beaac37763d22d6a49f8fbdf1944b2ae2fb55b5de",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "85623e0faf9cde0108db1e1f5eb06051f8dc7af06f5a2aaab87af2497fc6082e",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "f2863947d53d298a9197a4e85458b67fb9aec8b0c231d51391e8efaad8c13141",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "2085c330987afd02b44567e031439772d3353e62105c2c467c9d040f5499c78d",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d8c7ce9d52a2958aa60207f711044882bfcd56affe06917548fa1de70328b01c",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "8edfeaa825059dbe69e52c4c1cb93768e7a866d7fe081ad9a3b034fe2b401e5b",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--content-only__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "855fbecb3bd92bca804ec029e9a24868fcc019c7eafcf7124eb8ad4c7c347cbc",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--content-only",
+        "title": "Core/AppShell",
+        "name": "Content Only",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "2418dc086a685bcdaa01d2bde3ae0666cd38fb844a9f4262aa045e2b79065c1d",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "5f6a5c2bdf8d3bd5a2a6c45b9e7f7d1b9573ecd0497cf57ad9ac49b3c2c8192c",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d3389741cec5f9cbfde068da9fd217d38ac3ab242c070085f6f3a4f3271062ef",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "94dde46e0475feedf6846f404bd03e388cceaf03553d0e547609a9eb737d305b",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "39100344c6acf70836c672f2adb87309f047eb72e3f615ee89a253dcb0c637cd",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "39100344c6acf70836c672f2adb87309f047eb72e3f615ee89a253dcb0c637cd",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "e968ff458b53400342a1d8aace859bb736c10cb771949887ec4c6ef64a1ac912",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "79dde0c13e55be26e4c927814dc48d71f4fcf26383996cc242b2f469406fd36b",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "1a8f074289de8e4230de6dbbf165c39040747ff00f749f9a27989c0eb2245038",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "482062f8a440981658e8f0ac58d2a2e2cf2afc5ec3f4b0dc7c9e9e6f9607666d",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "9ea5e55db09d4639fa6deef2415a0ed751dfa858a4701ff2ccc84af1d4326eb4",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "4c2c0d4f30f126606499a35d80b609b9939e53a938d95ce2eede72b768ff5b10",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "70674b36329954864b09c31959143ddf31984de0de9bc830d4bffab8c331e22e",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-banner__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "09f5d29caa3bbdae35208f89f28822bef89f066ff7bfb3604b7579ab7bfc3c0d",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-banner",
+        "title": "Core/AppShell",
+        "name": "With Banner",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "859786d635de15a772df0d0cc7002890156c2ebc1d1700f9b35b08267310c717",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "189e4f80fca97848c7c9bdd0cc4cd9af03ad1e7e304f2b1458b3d04bd0e8ccdc",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "385dbe3cad42987de7bf0ebade7c383ebb365c5e9bc4786f3ed508379b5de86c",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d81139f345587ed08f5d5ccd2eefe56d38d20d0829d2ff5ea7b58a08799d7b18",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "0a62af1e30848cb4a81d4046c1ad2be9d7276a47b1420401ea1fdb81c8a10007",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "0a62af1e30848cb4a81d4046c1ad2be9d7276a47b1420401ea1fdb81c8a10007",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "fd033fc0653ae9f7f071ef7f51555f5cc73bac90f4d52588d9a55d67169e7b43",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "59404bc302711d52cfb6c050e2e886d6ffc499ba0a1fd64448dc0115413e193d",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "0286a1ad43804af32e9a434b428b61bd76493d6d36a59192791899c8597a1f63",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "8da8857d2d3ab854acc1c45cd49f415b04e1c4353a72e2b810faf0f04caeb3c2",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "614cd47acff43ef065dac493151308c309de90f33ecf71b29e2a4352ce91a938",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "06c7165d108ca1163bd614eacd3837672833997eb9cbe585057498ca43ab03b6",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "4b903e6e42854a2dea1a6472ef9adc766e3751007c727963f5e92fd8e91d4c69",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-appshell--with-mobile-nav__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "85fb561c673f12a4e744fff448b2c89304467a4d731fd59be4e9db3b8543162c",
+        "width": 1024,
+        "height": 800,
+        "storyId": "core-appshell--with-mobile-nav",
+        "title": "Core/AppShell",
+        "name": "With Mobile Nav",
+        "component": "AppShell",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    }
+  ],
+  "verdict": {
+    "version": 1,
+    "status": "changed",
+    "generatedAt": "2026-09-01T05:59:53.927Z",
+    "context": {
+      "sha": "5eb9acee6a713c879a7e37a6c569b2d42291590a",
+      "runId": "33473928982",
+      "runAttempt": "1",
+      "headSha": "5eb9acee6a713c879a7e37a6c569b2d42291590a",
+      "baseSha": "fb400d4b58e37b7f778dd71b238e170aeddda7ee",
+      "ref": "refs/heads/main",
+      "trustedScope": {
+        "hasStableVisual": true,
+        "broadStableVisual": false,
+        "stableComponents": [
+          "AppShell"
+        ],
+        "stableCoreFiles": [
+          "packages/core/src/AppShell/AppShell.tsx"
+        ],
+        "stableThemes": [],
+        "canaryPackages": []
+      }
+    },
+    "platform": "linux-arm64",
+    "baseline": {
+      "capturedAt": "2026-08-31T17:14:07.248Z",
+      "sha": "236860c1e4db91b709c65367b012006cd9ef8d64",
+      "platform": "linux-arm64"
+    },
+    "counts": {
+      "total": 140,
+      "unchanged": 2,
+      "changed": 0,
+      "added": 138,
+      "removed": 0,
+      "failed": 0
+    },
+    "changes": [],
+    "added": [
+      "core-appshell--playground__butter-light",
+      "core-appshell--playground__butter-dark",
+      "core-appshell--playground__gothic-light",
+      "core-appshell--playground__gothic-dark",
+      "core-appshell--playground__stone-light",
+      "core-appshell--playground__stone-dark",
+      "core-appshell--playground__y2k-light",
+      "core-appshell--playground__y2k-dark",
+      "core-appshell--playground__matcha-light",
+      "core-appshell--playground__matcha-dark",
+      "core-appshell--playground__chocolate-light",
+      "core-appshell--playground__chocolate-dark",
+      "core-appshell--top-nav-with-side-nav__neutral-light",
+      "core-appshell--top-nav-with-side-nav__neutral-dark",
+      "core-appshell--top-nav-with-side-nav__butter-light",
+      "core-appshell--top-nav-with-side-nav__butter-dark",
+      "core-appshell--top-nav-with-side-nav__gothic-light",
+      "core-appshell--top-nav-with-side-nav__gothic-dark",
+      "core-appshell--top-nav-with-side-nav__stone-light",
+      "core-appshell--top-nav-with-side-nav__stone-dark",
+      "core-appshell--top-nav-with-side-nav__y2k-light",
+      "core-appshell--top-nav-with-side-nav__y2k-dark",
+      "core-appshell--top-nav-with-side-nav__matcha-light",
+      "core-appshell--top-nav-with-side-nav__matcha-dark",
+      "core-appshell--top-nav-with-side-nav__chocolate-light",
+      "core-appshell--top-nav-with-side-nav__chocolate-dark",
+      "core-appshell--side-nav-only__neutral-light",
+      "core-appshell--side-nav-only__neutral-dark",
+      "core-appshell--side-nav-only__butter-light",
+      "core-appshell--side-nav-only__butter-dark",
+      "core-appshell--side-nav-only__gothic-light",
+      "core-appshell--side-nav-only__gothic-dark",
+      "core-appshell--side-nav-only__stone-light",
+      "core-appshell--side-nav-only__stone-dark",
+      "core-appshell--side-nav-only__y2k-light",
+      "core-appshell--side-nav-only__y2k-dark",
+      "core-appshell--side-nav-only__matcha-light",
+      "core-appshell--side-nav-only__matcha-dark",
+      "core-appshell--side-nav-only__chocolate-light",
+      "core-appshell--side-nav-only__chocolate-dark",
+      "core-appshell--top-nav-only__neutral-light",
+      "core-appshell--top-nav-only__neutral-dark",
+      "core-appshell--top-nav-only__butter-light",
+      "core-appshell--top-nav-only__butter-dark",
+      "core-appshell--top-nav-only__gothic-light",
+      "core-appshell--top-nav-only__gothic-dark",
+      "core-appshell--top-nav-only__stone-light",
+      "core-appshell--top-nav-only__stone-dark",
+      "core-appshell--top-nav-only__y2k-light",
+      "core-appshell--top-nav-only__y2k-dark",
+      "core-appshell--top-nav-only__matcha-light",
+      "core-appshell--top-nav-only__matcha-dark",
+      "core-appshell--top-nav-only__chocolate-light",
+      "core-appshell--top-nav-only__chocolate-dark",
+      "core-appshell--full-featured__neutral-light",
+      "core-appshell--full-featured__neutral-dark",
+      "core-appshell--full-featured__butter-light",
+      "core-appshell--full-featured__butter-dark",
+      "core-appshell--full-featured__gothic-light",
+      "core-appshell--full-featured__gothic-dark",
+      "core-appshell--full-featured__stone-light",
+      "core-appshell--full-featured__stone-dark",
+      "core-appshell--full-featured__y2k-light",
+      "core-appshell--full-featured__y2k-dark",
+      "core-appshell--full-featured__matcha-light",
+      "core-appshell--full-featured__matcha-dark",
+      "core-appshell--full-featured__chocolate-light",
+      "core-appshell--full-featured__chocolate-dark",
+      "core-appshell--auto-height__neutral-light",
+      "core-appshell--auto-height__neutral-dark",
+      "core-appshell--auto-height__butter-light",
+      "core-appshell--auto-height__butter-dark",
+      "core-appshell--auto-height__gothic-light",
+      "core-appshell--auto-height__gothic-dark",
+      "core-appshell--auto-height__stone-light",
+      "core-appshell--auto-height__stone-dark",
+      "core-appshell--auto-height__y2k-light",
+      "core-appshell--auto-height__y2k-dark",
+      "core-appshell--auto-height__matcha-light",
+      "core-appshell--auto-height__matcha-dark",
+      "core-appshell--auto-height__chocolate-light",
+      "core-appshell--auto-height__chocolate-dark",
+      "core-appshell--controlled-collapse__neutral-light",
+      "core-appshell--controlled-collapse__neutral-dark",
+      "core-appshell--controlled-collapse__butter-light",
+      "core-appshell--controlled-collapse__butter-dark",
+      "core-appshell--controlled-collapse__gothic-light",
+      "core-appshell--controlled-collapse__gothic-dark",
+      "core-appshell--controlled-collapse__stone-light",
+      "core-appshell--controlled-collapse__stone-dark",
+      "core-appshell--controlled-collapse__y2k-light",
+      "core-appshell--controlled-collapse__y2k-dark",
+      "core-appshell--controlled-collapse__matcha-light",
+      "core-appshell--controlled-collapse__matcha-dark",
+      "core-appshell--controlled-collapse__chocolate-light",
+      "core-appshell--controlled-collapse__chocolate-dark",
+      "core-appshell--content-only__neutral-light",
+      "core-appshell--content-only__neutral-dark",
+      "core-appshell--content-only__butter-light",
+      "core-appshell--content-only__butter-dark",
+      "core-appshell--content-only__gothic-light",
+      "core-appshell--content-only__gothic-dark",
+      "core-appshell--content-only__stone-light",
+      "core-appshell--content-only__stone-dark",
+      "core-appshell--content-only__y2k-light",
+      "core-appshell--content-only__y2k-dark",
+      "core-appshell--content-only__matcha-light",
+      "core-appshell--content-only__matcha-dark",
+      "core-appshell--content-only__chocolate-light",
+      "core-appshell--content-only__chocolate-dark",
+      "core-appshell--with-banner__neutral-light",
+      "core-appshell--with-banner__neutral-dark",
+      "core-appshell--with-banner__butter-light",
+      "core-appshell--with-banner__butter-dark",
+      "core-appshell--with-banner__gothic-light",
+      "core-appshell--with-banner__gothic-dark",
+      "core-appshell--with-banner__stone-light",
+      "core-appshell--with-banner__stone-dark",
+      "core-appshell--with-banner__y2k-light",
+      "core-appshell--with-banner__y2k-dark",
+      "core-appshell--with-banner__matcha-light",
+      "core-appshell--with-banner__matcha-dark",
+      "core-appshell--with-banner__chocolate-light",
+      "core-appshell--with-banner__chocolate-dark",
+      "core-appshell--with-mobile-nav__neutral-light",
+      "core-appshell--with-mobile-nav__neutral-dark",
+      "core-appshell--with-mobile-nav__butter-light",
+      "core-appshell--with-mobile-nav__butter-dark",
+      "core-appshell--with-mobile-nav__gothic-light",
+      "core-appshell--with-mobile-nav__gothic-dark",
+      "core-appshell--with-mobile-nav__stone-light",
+      "core-appshell--with-mobile-nav__stone-dark",
+      "core-appshell--with-mobile-nav__y2k-light",
+      "core-appshell--with-mobile-nav__y2k-dark",
+      "core-appshell--with-mobile-nav__matcha-light",
+      "core-appshell--with-mobile-nav__matcha-dark",
+      "core-appshell--with-mobile-nav__chocolate-light",
+      "core-appshell--with-mobile-nav__chocolate-dark"
+    ],
+    "removed": [],
+    "failures": [],
+    "targeting": {
+      "unexercisedOverrides": [],
+      "undeclaredTargets": [],
+      "uncoveredTargets": []
+    }
+  }
+}
