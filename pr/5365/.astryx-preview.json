@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "repository": "facebook/astryx",
+  "pullRequest": {
+    "number": 5365,
+    "headSha": "d36958da655e536e36b838be9cd5adef2e9fa77c",
+    "headRef": "nynexman4464/fix/rtl-applicability-contract",
+    "headRepository": "facebook/astryx",
+    "headRepositoryId": "1131202426"
+  },
+  "sourceRun": {
+    "id": 33450137158,
+    "attempt": 1,
+    "conclusion": "success"
+  },
+  "targets": {
+    "storybook": {
+      "available": true,
+      "path": "pr/5365/",
+      "indexSha256": "b1897f3f4703faf8ebc0206d5d9223d232a0528f87b91aed5b2877c19b7952cd"
+    },
+    "sandbox": {
+      "available": true,
+      "path": "pr/5365/sandbox/",
+      "indexSha256": "4399c18fc9941f877686e55af62d29e370d7cc269ce47f8d71198bd527fedb60"
+    }
+  }
+}
