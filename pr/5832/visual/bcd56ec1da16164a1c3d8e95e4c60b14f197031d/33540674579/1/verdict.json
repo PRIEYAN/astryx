@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "status": "pass",
+  "generatedAt": "2026-09-01T18:29:04.128Z",
+  "context": {
+    "sha": "bcd56ec1da16164a1c3d8e95e4c60b14f197031d",
+    "runId": "33540674579",
+    "runAttempt": "1",
+    "headSha": "bcd56ec1da16164a1c3d8e95e4c60b14f197031d",
+    "baseSha": "4c2a42464f5956bf5807b6913b36489cf418bb6c",
+    "ref": "refs/heads/main",
+    "trustedScope": {
+      "hasStableVisual": true,
+      "broadStableVisual": false,
+      "stableComponents": [
+        "Table"
+      ],
+      "stableCoreFiles": [
+        "packages/core/src/Table/index.ts",
+        "packages/core/src/Table/plugins/rowStatus/index.ts",
+        "packages/core/src/Table/plugins/rowStatus/useTableRowStatus.tsx"
+      ],
+      "stableThemes": [],
+      "canaryPackages": []
+    }
+  },
+  "platform": "linux-arm64",
+  "baseline": {
+    "capturedAt": "2026-09-01T16:01:43.549Z",
+    "sha": "c5197506492beb246dc00dd976a05171a355f539",
+    "platform": "linux-arm64"
+  },
+  "counts": {
+    "total": 336,
+    "unchanged": 336,
+    "changed": 0,
+    "added": 0,
+    "removed": 0,
+    "failed": 0
+  },
+  "changes": [],
+  "added": [],
+  "removed": [],
+  "failures": [],
+  "targeting": {
+    "unexercisedOverrides": [],
+    "undeclaredTargets": [],
+    "uncoveredTargets": []
+  }
+}
