@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "repository": "facebook/astryx",
+  "pullRequest": {
+    "number": 5599,
+    "headSha": "6aa39bd883cda88c38830aa395ded7c7cd79f065",
+    "headRef": "ci/dependabot-composite-actions",
+    "headRepository": "bhamodi/astryx",
+    "headRepositoryId": "1292807085"
+  },
+  "sourceRun": {
+    "id": 33444889206,
+    "attempt": 1,
+    "conclusion": "success"
+  },
+  "targets": {
+    "storybook": {
+      "available": true,
+      "path": "pr/5599/",
+      "indexSha256": "b1897f3f4703faf8ebc0206d5d9223d232a0528f87b91aed5b2877c19b7952cd"
+    },
+    "sandbox": {
+      "available": true,
+      "path": "pr/5599/sandbox/",
+      "indexSha256": "1ccdcbf6c5ec7d16deeed6f0fae6e908753bf15ef9b37a28b66f2444ff487a99"
+    }
+  }
+}
