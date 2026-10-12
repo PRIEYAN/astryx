@@ -1,0 +1,3151 @@
+{
+  "version": 1,
+  "repo": "facebook/astryx",
+  "pr": 5827,
+  "headSha": "6d2eed2423014c93dd88686d9b136b7644c2e6dd",
+  "testedSha": "6d2eed2423014c93dd88686d9b136b7644c2e6dd",
+  "baseSha": "43892489db57b8e1b2bd9ee2b2d0d2f0539e464b",
+  "run": {
+    "id": 33525750650,
+    "attempt": 1
+  },
+  "capture": {
+    "platform": "linux-arm64",
+    "browser": "chromium-149.0.7827.0",
+    "viewport": {
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "deltas": [
+    {
+      "key": "core-spinner--default__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "43a9cc8a31c12176db6ee15f4ad157936df73fa2805455b96db59fc3bb4b15ec",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--default",
+        "title": "Core/Spinner",
+        "name": "Default",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--default__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "72577cb55eba7f5aef30820424051731086d99c730fd3e70f90984e5c8a7c0c3",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--default",
+        "title": "Core/Spinner",
+        "name": "Default",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--default__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "08a57c4d7fe677be49daffc87f155b095431e7d8db5dea23718e440b74e91cb1",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--default",
+        "title": "Core/Spinner",
+        "name": "Default",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--default__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "0868fd91aab59d547751ae5eb5427fe433b7fde1f3035ca1ff04d68cfb9ac78d",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--default",
+        "title": "Core/Spinner",
+        "name": "Default",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--default__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d686cf79f514179e9759e0effaf9ff41d31b387998c538047150d458d653bb20",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--default",
+        "title": "Core/Spinner",
+        "name": "Default",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--default__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a43e6393c9d62b2ab9cb69dd0fae2dc414feafd9f70e15659f011a267f47386a",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--default",
+        "title": "Core/Spinner",
+        "name": "Default",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--default__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "82ecb59efa1538f9d3812797d6593d482e9266927ef30b0e8e3332adb2d99f26",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--default",
+        "title": "Core/Spinner",
+        "name": "Default",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--default__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "f33d7e4e1aa99b1167ed7bcfa0343959d80ab8ede215002d406d3673f3b3c255",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--default",
+        "title": "Core/Spinner",
+        "name": "Default",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--default__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "02de4797ae3bdda436d1c12c88c799604ca3202e4bab27d8a54b7dd8ca061b7b",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--default",
+        "title": "Core/Spinner",
+        "name": "Default",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--default__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "4e731c647ccdb72ad4c82df5375e9c232290d036bc76df9fad185097231814b4",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--default",
+        "title": "Core/Spinner",
+        "name": "Default",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--default__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "63aa7483b1b19d2c81ad35426c9233c2ff2d367a3640a9a44f4b505c4f80062b",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--default",
+        "title": "Core/Spinner",
+        "name": "Default",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--default__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "6b054e8ac2320fda39f619be54a7b28cda284b863dc67b5c39538e3702bf0550",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--default",
+        "title": "Core/Spinner",
+        "name": "Default",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "f72582068f0db62efb6c23d6c6b5de76292565a9b92c0c6634f0368aff6596c7",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "27d1942a68d8375642fd3d9a8d9a19c0962a466423ff464fdb7eb0a1ee6dcf2b",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "b8296cc5ee5b160232cc369470beb138e10f21142140dc90729b3a2f491fe5c6",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "4e3e93010723e7fe14baaaefb64f8d89b5af3ec2548d8bdeb613847811639fc7",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "7a3be5eab056501f556891e58cfff55e6c990dc46cd738c9d0a27295eb698f2f",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "3da79b0cd3824db229138a6eeeb286c1e8080ec11ad2a178e0d084d9a5f1cc1a",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a6e3d9578545551db8f01240784a890e90ab898b2917e1b08d4a1212b3d7615e",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d3449ec1a94dbb0c12b7c2f4e5e141d022f00df7ca1fa08012bd814628311239",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "85d6aa1c2c71b9c5b6df56bc721df2aa21be859a7eefd2ac08ac4f6889d8ec84",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "99ccb4ceb8b2cf1fd538f387e865b3e37192882052198e90f4cb6ef1211a7ec7",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "65ea9d62e6cbba559ce656917939264964604d45afdc6be6de1ef1e23ca4da39",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "47fbcfd489dc23e80521eac4dcccf327f57fa4b4400d479bf521541ba0447dab",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "bb9be45b17ca8f4948af61eded8520459ae4a8f7ee3451cfb223a568417d2fa7",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--sizes__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "4e1f278194bc500d57b028fcf20dfd94a9bd9191c577f889099af60049912610",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--sizes",
+        "title": "Core/Spinner",
+        "name": "Sizes",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "42cb7503ad6be20e4630cead6fc1132055525049285d57de89d3f24fcb3f5554",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "4d7471bed12f3dfc0ac9bb3afc8ef6d0c65e0a282d16d9bf2906a7904fe18172",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "e3c000c58e0f5b97a921d382df8c026fb38ca35425759223d1a32bcd4f3310e2",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "367c6491b7352ddf3e7f687d37032d5ed76858fb5e301ce2ec104d84c957433b",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "ef6bfe9210778ada56949237ec2e1ea41d96d16fbe26b5a5ad01e0db72bcbdfe",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "937a437ad26390a64f40938173892f12a1115928231e7eb7356ec679d6af4b0f",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "b80ccaf0d457236d91e8d04814357bb295baa90aabd710ef6239e7ddda854044",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "fa1807e7b2b9678e9430b9ab17f1ee8afea8ce502e69632e6133996c96af9867",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a2d2004e281dce0c29db3c46710687bc1a047a157d15ad153ff98da135b891ef",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "5ce8329024ad40dbe2b927e55d15b1e0295478103f2d6f2ea936173b475cadda",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "01e8892228f1bcf28faf7dda7f34601f5ad5584ceb710586c694abff0ee7c5ce",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d0725c987d77537dcbae0c873bce476daa35f24dd472bc4ca14221100dcf92c4",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "6d0c51e1db9631f6da809ca3688be30c584e265bafeac255cffe96d5cda1eae2",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--shades__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d69a9b4cfa10e0d63b75188f87f4e9df0eae8b379ba7dbdf02d8c30b629e40af",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--shades",
+        "title": "Core/Spinner",
+        "name": "Shades",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "5bcd1f39ea1a0065ae3f9a0ae50e423cb6f22a47f6798aa20e4e7dccd7b1acb0",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "65b11769a0ef6cdaaa967848f2cdda5c2b7f6c7f8f5a99e9f90a483984206d07",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "827f66b0783b3321adbac8195c645d217ac4e8c1416bdcc2acf7fa0f74e70138",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "bb2704b1d61a5d5641a3c7222e5d8309630de5b5c590834e2abe1e65d9194c75",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "b9fe530b15866d69851e6bfe1bc5444f84cd6e98c2d66a7ed90d100a06a38a9a",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "c1cd520fb13bf248c2f12f625608415a2491e49ccf333edaabbe001e021d283e",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "571ba7cd2d0028f5817e1bc683abd66e975fca55961f262368d4b81c84dd3b2e",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "69b40197732a090e963bce061f0fd84bfef270bf771ead195791894244c83f1f",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "c77a920d236e3cbcf03342098b1ac14f842546f20db4e2946ac5b3b7a4b17f0d",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "02e6645ee89735d62d814754e2ed9059374c40bff588e3af1f5b2b06c97dfb9d",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "423100162cf0d754701fbcefc412a0ec5b6aec89a99348945a9044a5346692db",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "b2b902f4e6bcef9a74295d97129702216012b6e34b92fb1fb71c3100d3926891",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "620361e3909cbb9f442fe6ce123d4f1a2f7256686e99afef7e30fa2c1618dc75",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--with-label__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "5711d205eacf72b0aa7e2fd98784d021c67c8e670f1974f84cd0b7e88cbd5581",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--with-label",
+        "title": "Core/Spinner",
+        "name": "With Label",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a26d42cb7add1d863d27d358255d63ac57ad82d7aaa9905b1ac61eb4a9dee348",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "4de9db45e373603c6bd3f6e4f275c3ea8a47caf528cb7e7d783c32e612addbf9",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "7cb2f9013571106141ca4d80600b8c9271c4b1f69e1548c74fdcadcb8601b85c",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "ed328a732ea79de0a6ef40659661554cc2f71599061036e73629a78831b9ab35",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "56395d441ff021694d2c297e55731906ff530a55461a3325a0eb3aa40549981d",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "0a2f186524ba6787846382bfb2c56ae59fdc763dbd96c3840bd22e08fb3952aa",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a63033665c4221b034dd284cc88a5ce170f3650d66e1b5e152d0d152eba61197",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "4ca3df70dbb433e2869bd6c5dc2f28ff0bfa531285cb003098d7b0a4e079dfcc",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "92d0127e71914807177e763c321211ba10588fcf3006c937c484b7d1a8ba1b12",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d7ed2e7ec7e7e1ef0d375a88f07446b9eac861e935ebbf072510a394d63aee47",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "9084c015f107c4e0e8e8cb8b5f5d8ef5e714a0ae78f8c8ee8db6dfe48f4c4399",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "36caf8cbd6f22a93470e691b361b53eb615d7681a505531cb87e4736c0cb61a6",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "5a9cada731c120665f1b0f1f055c096b9e2e1774c1427f879be4774683b2e10e",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-geometry__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a02ca07219946f0820da5097c2d3d6cc1e1762a63cc9cff1cbbcbbb2937eaeb5",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-geometry",
+        "title": "Core/Spinner",
+        "name": "Themed Geometry (per size)",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "343818fb2f842c774c2de3eba1728d65dc140b25d957b3c3afd7766cb7764c06",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "ca773ea6e0ccd2aa59372892272f874084067392d8fae374396065702bbf7673",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "7de3836fb627fa5fe81c8ed9bf8c4da9c15852320225c936a1c89bbb4b501f0d",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "b64532c15680568001973aa262573868b08b12bb7535e0c939e6f742e6b441b7",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a60de5adceca3e30f999287248f2478ce96ed5cfc90768a137500650fd4872c4",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "c40c4b5301e439e7935b1c1f58f63b726a107822c13ee7a2bb550fee60de5023",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "bc82fae7d6d71da416ce4ded85ce218b3318da9c177dfd24ee7f46f313708b25",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "e42064e6fb75f0d6cf59fcae7cd365d86c2fed69eadc3d195e7a6410b45fc83f",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "6a5b7a5e1b98ded7a3928212b26dd30096158387777ed1d191fbe9a5c05a946b",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "901837998e9faefc46fff2d94b9325a06ede1df381ad6101edf7cd1314fd4ce5",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "8906458a6848c2f69a2bad3d719f86ba1647233c4886fdc146e6712aea4c79af",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "552a0060e371b740ab4ad212c0c2376ed855c09c18026c54a44584cf75bc6d84",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "562750807c65bf8dde9abbd12811d50bbfa50dc6428191741b0a8fe19c09979c",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-color__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "b9c35e9596b6c3e8ff14bfb06ef3c66acd376fd2dac93c590231324fcbd78cc7",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-color",
+        "title": "Core/Spinner",
+        "name": "Themed Color (per shade)",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "7a94ba15d8288ccf4482c502ebcf050224b737409e9abd4834553962614e7b6b",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "b3bffeecdd490de912eac177be63ca53d139e7ad26dc0ab344d6200ff7c6b14c",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "1d6383d033215e86f37967f7b3e59a3771c9cf41941a6b018abb21d1ba371e09",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "b9859fab78d100319dfba227834d0e8851aa2e235a294dbe1a104423411d114f",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "c550aec7274785d5cd772feef2680e50f9f6712bb037cc9bd91460e6523fe056",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "6fdc9a311851963c9ec152d296010d07541ced8de5117e35aa8b9eb6bdefd47c",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "148df030cb6d38136b50aafdc3f08c9701af37c77ec9f56079b310ed87a51aef",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "cbbce6e1ed93ab2014b1d559e85a9b931ae52d4060425b475518b90daba0d25e",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "19474f5c8c016327dea914cf81101951168072f63971505410ccd212ed2347b9",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "2fecda1d53d5cd843ad9b55bc1098ce105ec35bbcf4f7f71fd11dde5de3d4d75",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "af027594ea0f2f3c12a18073aa20810c16e0e51aee76bbf2a042b94321489e82",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "55eb321e8607f2d516498a3679c31d94dcbd80062ee7da4e715fd269c657a7d7",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "824e3a7423802ceb1c119489183464b00c2c953862e1c877744344f73b53cfe1",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--themed-hairline-stroke__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "a86af897d35ed8ca88a1fe6662518cdd684365335829f5e94bd02d2c7cddb080",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--themed-hairline-stroke",
+        "title": "Core/Spinner",
+        "name": "Themed Hairline Stroke",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__neutral-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "90e312654d352b72583c152bea5ebbf807adb7cc36bfacae98594e117ab6849a",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__neutral-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "4450076352df7a21b9d83e23e319158cafdad5989bd34e8b257119d167d4f205",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "neutral",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-neutral",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__butter-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "bcb8b92c153adacdf5a6bc18c081d4ab29f0bc800a93ffe0a9f99b3d75323e71",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__butter-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "444026061ef1e68b290cd6581633ef553fed981420b9b417d76cad1f8eb4bec3",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "butter",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-butter",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__gothic-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "94106a6a3742b9541802a873bc648a7d3617e30a37d552ac96aec860a04b3d97",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__gothic-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "f19a06a7072cbf908cea78701692975467b80fc356f71a46429bff70c564884b",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "gothic",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-gothic",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__stone-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "7e0dc5ba8b9c54b83ed14a2fdfe1422eaf1bfa18ef623da1b723916b2af77924",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__stone-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "d1bc2013662df16efac227edee265a0a0ebd3971d623ec7b407a8bada1e92498",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "stone",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-stone",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__y2k-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "b3823530fdc1cb0a43adc7acf645dc256e3faffdc080a93250d6ea2692e3880b",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__y2k-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "504f54a2890810ec227725c71acca0ffe3f41aeff8a7fb13f8787424ad4c5a30",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "y2k",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-y2k",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__matcha-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "edcc80085c2fd3c5aef538f91596c56b7d184e47b88b141b4cfa10df9976549d",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__matcha-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "f0db419068b50693b991f852f0f4ac75d5eedf7cb360d68439898168d97c43b8",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "matcha",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-matcha",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__chocolate-light",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "faebbd7fad6dcbd8027136a85b4c30c9d03510b35dc4197acfe7ffb35397243b",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "light",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    },
+    {
+      "key": "core-spinner--narrow-flex-host__chocolate-dark",
+      "kind": "added",
+      "beforeSha256": null,
+      "shot": {
+        "sha256": "9b9e5e989c4286c03972abc6ec24a3ec9205071de75f4acc08cb732e0f361fcd",
+        "width": 1024,
+        "height": 768,
+        "storyId": "core-spinner--narrow-flex-host",
+        "title": "Core/Spinner",
+        "name": "Narrow Flex Host",
+        "component": "Spinner",
+        "theme": "chocolate",
+        "mode": "dark",
+        "reasons": [
+          "trusted:pr-scope"
+        ],
+        "packageName": "@astryxdesign/core",
+        "packageNames": [
+          "@astryxdesign/core"
+        ],
+        "stableVisual": true,
+        "themePackageName": "@astryxdesign/theme-chocolate",
+        "stableThemeVisual": true,
+        "membershipSource": "accepted-capture"
+      }
+    }
+  ],
+  "verdict": {
+    "version": 1,
+    "status": "changed",
+    "generatedAt": "2026-09-01T16:03:14.640Z",
+    "context": {
+      "sha": "6d2eed2423014c93dd88686d9b136b7644c2e6dd",
+      "runId": "33525750650",
+      "runAttempt": "1",
+      "headSha": "6d2eed2423014c93dd88686d9b136b7644c2e6dd",
+      "baseSha": "43892489db57b8e1b2bd9ee2b2d0d2f0539e464b",
+      "ref": "refs/heads/main",
+      "trustedScope": {
+        "hasStableVisual": true,
+        "broadStableVisual": false,
+        "stableComponents": [
+          "Spinner"
+        ],
+        "stableCoreFiles": [
+          "packages/core/src/Spinner/Spinner.tsx"
+        ],
+        "stableThemes": [],
+        "canaryPackages": []
+      }
+    },
+    "platform": "linux-arm64",
+    "baseline": {
+      "capturedAt": "2026-08-31T17:14:07.248Z",
+      "sha": "236860c1e4db91b709c65367b012006cd9ef8d64",
+      "platform": "linux-arm64"
+    },
+    "counts": {
+      "total": 112,
+      "unchanged": 2,
+      "changed": 0,
+      "added": 110,
+      "removed": 0,
+      "failed": 0
+    },
+    "changes": [],
+    "added": [
+      "core-spinner--default__butter-light",
+      "core-spinner--default__butter-dark",
+      "core-spinner--default__gothic-light",
+      "core-spinner--default__gothic-dark",
+      "core-spinner--default__stone-light",
+      "core-spinner--default__stone-dark",
+      "core-spinner--default__y2k-light",
+      "core-spinner--default__y2k-dark",
+      "core-spinner--default__matcha-light",
+      "core-spinner--default__matcha-dark",
+      "core-spinner--default__chocolate-light",
+      "core-spinner--default__chocolate-dark",
+      "core-spinner--sizes__neutral-light",
+      "core-spinner--sizes__neutral-dark",
+      "core-spinner--sizes__butter-light",
+      "core-spinner--sizes__butter-dark",
+      "core-spinner--sizes__gothic-light",
+      "core-spinner--sizes__gothic-dark",
+      "core-spinner--sizes__stone-light",
+      "core-spinner--sizes__stone-dark",
+      "core-spinner--sizes__y2k-light",
+      "core-spinner--sizes__y2k-dark",
+      "core-spinner--sizes__matcha-light",
+      "core-spinner--sizes__matcha-dark",
+      "core-spinner--sizes__chocolate-light",
+      "core-spinner--sizes__chocolate-dark",
+      "core-spinner--shades__neutral-light",
+      "core-spinner--shades__neutral-dark",
+      "core-spinner--shades__butter-light",
+      "core-spinner--shades__butter-dark",
+      "core-spinner--shades__gothic-light",
+      "core-spinner--shades__gothic-dark",
+      "core-spinner--shades__stone-light",
+      "core-spinner--shades__stone-dark",
+      "core-spinner--shades__y2k-light",
+      "core-spinner--shades__y2k-dark",
+      "core-spinner--shades__matcha-light",
+      "core-spinner--shades__matcha-dark",
+      "core-spinner--shades__chocolate-light",
+      "core-spinner--shades__chocolate-dark",
+      "core-spinner--with-label__neutral-light",
+      "core-spinner--with-label__neutral-dark",
+      "core-spinner--with-label__butter-light",
+      "core-spinner--with-label__butter-dark",
+      "core-spinner--with-label__gothic-light",
+      "core-spinner--with-label__gothic-dark",
+      "core-spinner--with-label__stone-light",
+      "core-spinner--with-label__stone-dark",
+      "core-spinner--with-label__y2k-light",
+      "core-spinner--with-label__y2k-dark",
+      "core-spinner--with-label__matcha-light",
+      "core-spinner--with-label__matcha-dark",
+      "core-spinner--with-label__chocolate-light",
+      "core-spinner--with-label__chocolate-dark",
+      "core-spinner--themed-geometry__neutral-light",
+      "core-spinner--themed-geometry__neutral-dark",
+      "core-spinner--themed-geometry__butter-light",
+      "core-spinner--themed-geometry__butter-dark",
+      "core-spinner--themed-geometry__gothic-light",
+      "core-spinner--themed-geometry__gothic-dark",
+      "core-spinner--themed-geometry__stone-light",
+      "core-spinner--themed-geometry__stone-dark",
+      "core-spinner--themed-geometry__y2k-light",
+      "core-spinner--themed-geometry__y2k-dark",
+      "core-spinner--themed-geometry__matcha-light",
+      "core-spinner--themed-geometry__matcha-dark",
+      "core-spinner--themed-geometry__chocolate-light",
+      "core-spinner--themed-geometry__chocolate-dark",
+      "core-spinner--themed-color__neutral-light",
+      "core-spinner--themed-color__neutral-dark",
+      "core-spinner--themed-color__butter-light",
+      "core-spinner--themed-color__butter-dark",
+      "core-spinner--themed-color__gothic-light",
+      "core-spinner--themed-color__gothic-dark",
+      "core-spinner--themed-color__stone-light",
+      "core-spinner--themed-color__stone-dark",
+      "core-spinner--themed-color__y2k-light",
+      "core-spinner--themed-color__y2k-dark",
+      "core-spinner--themed-color__matcha-light",
+      "core-spinner--themed-color__matcha-dark",
+      "core-spinner--themed-color__chocolate-light",
+      "core-spinner--themed-color__chocolate-dark",
+      "core-spinner--themed-hairline-stroke__neutral-light",
+      "core-spinner--themed-hairline-stroke__neutral-dark",
+      "core-spinner--themed-hairline-stroke__butter-light",
+      "core-spinner--themed-hairline-stroke__butter-dark",
+      "core-spinner--themed-hairline-stroke__gothic-light",
+      "core-spinner--themed-hairline-stroke__gothic-dark",
+      "core-spinner--themed-hairline-stroke__stone-light",
+      "core-spinner--themed-hairline-stroke__stone-dark",
+      "core-spinner--themed-hairline-stroke__y2k-light",
+      "core-spinner--themed-hairline-stroke__y2k-dark",
+      "core-spinner--themed-hairline-stroke__matcha-light",
+      "core-spinner--themed-hairline-stroke__matcha-dark",
+      "core-spinner--themed-hairline-stroke__chocolate-light",
+      "core-spinner--themed-hairline-stroke__chocolate-dark",
+      "core-spinner--narrow-flex-host__neutral-light",
+      "core-spinner--narrow-flex-host__neutral-dark",
+      "core-spinner--narrow-flex-host__butter-light",
+      "core-spinner--narrow-flex-host__butter-dark",
+      "core-spinner--narrow-flex-host__gothic-light",
+      "core-spinner--narrow-flex-host__gothic-dark",
+      "core-spinner--narrow-flex-host__stone-light",
+      "core-spinner--narrow-flex-host__stone-dark",
+      "core-spinner--narrow-flex-host__y2k-light",
+      "core-spinner--narrow-flex-host__y2k-dark",
+      "core-spinner--narrow-flex-host__matcha-light",
+      "core-spinner--narrow-flex-host__matcha-dark",
+      "core-spinner--narrow-flex-host__chocolate-light",
+      "core-spinner--narrow-flex-host__chocolate-dark"
+    ],
+    "removed": [],
+    "failures": [],
+    "targeting": {
+      "unexercisedOverrides": [],
+      "undeclaredTargets": [],
+      "uncoveredTargets": []
+    }
+  }
+}
